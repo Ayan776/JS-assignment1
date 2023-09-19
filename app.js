@@ -1,131 +1,93 @@
-// Chapter no 1
+// Arry & Loop
+// for(a=1;a<=10;a++){
+//     document.write(a, "<br>");
+// }
+// var table = prompt("Enter the table");
+// var length = prompt("Enter the lenght");
+// for(var a=1;a<=length;a++){
+//     document.write(table + "* " +a + " = "+(a*table) +"<br>");
+// }
 
-// task 1
-// alert("Muhammad Ayan");
-// alert("Faisal");
-// alert("ayanfaisal457@gmail.com");
-// alert("0311*******");
-// alert("Password");
+// var fruit = ["apple","Bannana","Mango","Orange","Strabuery"];
+// for(var a=0;a<fruit.length;a++){
+//     document.write("Element of " + fruit[a] +a +"<br>");
+// }
+// document.write("COUNTING: <br>")
+// for(var a=1;a<=20;a++){
+//     document.write(a,",");
+// }
 
-// task 2
-// alert "You're learning JavaScript!";
-//  alert("You're learning JavaScript!");
+// document.write("Reverse Counting:<br>");
+// for(var a=15;a>=1;a--){
+//     document.write(a,",");
+// }
 
-// task 3
-// alert("Welcome in this website")
+// document.write("Even:<br>");
+// for(var a=0;a<=20;a=a+2){
+//     document.write(a,",");
+// }
+// document.write("ODD:<br>");
+// for(var a=1;a<=19;a=a+2){
+//     document.write(a,",");
+// }
 
-// CHAPTER NO 1 ENDS
+// var i;
+// for (i = 0; i <= limit; i = i + 2) {
 
-// Chapter no 2
+//     console.log(i + "k");
 
-// task 1
-// var firstName = "Muhammad Ayan";
+// }
 
-// task 2
-// var firstName = ""
-// console.log(firstName)
+// var A = [24, 53, 78, 91, 12];
+// document.write("Array Items:",A +"<br>");
 
-// task 3
-// var teamName ="CHRONSOCO7"
-// alert(teamName);
 
-// task 4
-// var bestMan = "Charlie";
-//  var bestMan = "James";
+// var largest = A[0]; 
 
-// CHAPTER NO 2 ENDS
 
-// Chapter no 3
+// for (var  i = 1; i < A.length; i++) {
+//   if (A[i] > largest) {
+//     largest = A[i];
+//   }
+// }
 
-// task 1
-// var caseQty;
 
-// task 2
-// var caseQty = 144;
+// document.write("The largest number in the array is: " + largest);
 
-// task 3
-// var num = "9";
-// var res = num * 2;
 
-// task 4
-// var sum;
-// sum = 5 + 7;
 
-// task 5
-// var merchTotal = 100;
-// var shippingCharge = 10;
-// var orderTotal = merchTotal + shippingCharge; (var orderTotal is 110)
-// console.log(orderTotal)
+// var A = [24, 53, 78, 91, 12];
+// document.write("Array in item:",A +"<br>");
 
-// task 6
-// var addition = 100;
-// var addition = 100 + 25;
-// console.log(addition)
 
-// CHAPTER NO 3 ENDS
+// var smallest = A[0]; // Assume the first element is the smallest
 
-// Chapter no 4
 
-// // task 1
-// var product cost = 3.45;
-// var productCost = 3.45;
+// for (var i = 1; i < A.length; i++) {
+//   if (A[i] < smallest) {
+//     smallest = A[i];
+//   }
+// }
 
-// task 2
-// Rewrite this using camelCase.
-// var Nameofband;
-// var nameOfBand;
 
-// task3
-// var myNumber = 42;
+// document.write("The smallest number in the array is: " + smallest);
 
-// task 4
-// var myFullName = "ayanFaisal";
 
-// task 5
-// LEGAL VARIABLES
-// var firstName;
-// var _privateVar;
-// var $price;
-// var variable123;
+// for (var i = 1; i <= 100; i++) {
 
-// ILLEGAL VARIABLES
-// var 1stPlace; 
-// var my variable;
-// var if; 
-// var my-variable; 
+//   if (i % 5 === 0) {
+//     document.write(i,",");
+//   }
+// }
 
-// CHAPTER NO 4 ENDS
 
-// Chapter 5
-
-// task 1
-// var remainder = 10 % 3;
-
-// task 2
-// var num = 20 % 6;
-// console.log(num)
-
-// task 3
-// var largeNum = 1000 * 2000;
-
-// task 4
-// var res;
-// var variable1 = 10; 
-// var variable2 = 5; 
-
-// res = variable1 - variable2;
-// console.log(res)
-
-// task 5
-// var dividend = 15; 
-// var divisor = 4; 
-
-// var res = dividend % divisor;
-// console.log(res)
-
-// task 6
-// var number1 = 5;
-// var number2 = 7; 
-
-// var res = number1 * number2;
-// alert(res)
+// var a = ["Cake","Apple","Pie","Cookie","Chip","Patties"];
+// var input = prompt("What do you Want");
+// for(var i=0; i < a.length; i++){
+//   if(input == a[i]) {
+//     console.log("YES AVAIBLE");
+//   }
+// else{
+//   console.log("Not Avaible");
+// }
+// }
