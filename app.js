@@ -1,93 +1,96 @@
-// Arry & Loop
-// for(a=1;a<=10;a++){
-//     document.write(a, "<br>");
+//FUCTIONS
+// function greet(){
+//     var firstName = prompt("ENTER YOUR FIRST NAME ")
+//     var lastName = prompt("ENTER YOUR LAST NAME ")
+//     var res = firstName + lastName
+//     alert("welcome " + res)
 // }
-// var table = prompt("Enter the table");
-// var length = prompt("Enter the lenght");
-// for(var a=1;a<=length;a++){
-//     document.write(table + "* " +a + " = "+(a*table) +"<br>");
+// greet()
+
+// SUM
+// function sum(a,b){
+//     alert(a*b);
 // }
+// sum(70,2)
 
-// var fruit = ["apple","Bannana","Mango","Orange","Strabuery"];
-// for(var a=0;a<fruit.length;a++){
-//     document.write("Element of " + fruit[a] +a +"<br>");
-// }
-// document.write("COUNTING: <br>")
-// for(var a=1;a<=20;a++){
-//     document.write(a,",");
-// }
-
-// document.write("Reverse Counting:<br>");
-// for(var a=15;a>=1;a--){
-//     document.write(a,",");
-// }
-
-// document.write("Even:<br>");
-// for(var a=0;a<=20;a=a+2){
-//     document.write(a,",");
-// }
-// document.write("ODD:<br>");
-// for(var a=1;a<=19;a=a+2){
-//     document.write(a,",");
-// }
-
-// var i;
-// for (i = 0; i <= limit; i = i + 2) {
-
-//     console.log(i + "k");
-
-// }
-
-// var A = [24, 53, 78, 91, 12];
-// document.write("Array Items:",A +"<br>");
-
-
-// var largest = A[0]; 
-
-
-// for (var  i = 1; i < A.length; i++) {
-//   if (A[i] > largest) {
-//     largest = A[i];
+//  function greet(firstName,lastName){
+//       alert(firstName + lastName)
 //   }
+//  var firstName = prompt("ENTER YOUR FIRST NAME")
+//  var lastName = prompt("ENTER YOUR LAST NAME")
+//  greet(firstName,lastName)
+
+// FUNCTIONS TABLE 
+// function Maths(table,length){
+//   for(i=0;i<=length;i++){
+//   document.write(table + "x" + i +"=" +table *i + "<br>")}
+// }
+// var table = prompt("write the number for table")
+// var length = prompt("write the length of the table")
+// Maths(table,length)
+
+
+// var table = prompt("write the number for table")
+// var length = prompt("write the length of the table")
+
+// for(i=0;i<=length;i++){
+//   document.write(table + "x" + i +"=" + table*i + "<br>")
 // }
 
 
-// document.write("The largest number in the array is: " + largest);
-
-
-
-// var A = [24, 53, 78, 91, 12];
-// document.write("Array in item:",A +"<br>");
-
-
-// var smallest = A[0]; // Assume the first element is the smallest
-
-
-// for (var i = 1; i < A.length; i++) {
-//   if (A[i] < smallest) {
-//     smallest = A[i];
-//   }
+// function Name(){
+// return firstName + lastName
 // }
+// var firstName =  prompt("ENTER YOUR FIRST NAME")
+// var lastName = prompt("ENTER YOUR LAST NAME")
+// var res = Name(firstName,lastName)
+// alert(res)
 
-
-// document.write("The smallest number in the array is: " + smallest);
-
-
-// for (var i = 1; i <= 100; i++) {
-
-//   if (i % 5 === 0) {
-//     document.write(i,",");
-//   }
+// CALCULATOR
+// function calc(num1,operator,num2){
+// if(operator === "+"){
+//   return num1 + num2
 // }
-
-
-// var a = ["Cake","Apple","Pie","Cookie","Chip","Patties"];
-// var input = prompt("What do you Want");
-// for(var i=0; i < a.length; i++){
-//   if(input == a[i]) {
-//     console.log("YES AVAIBLE");
-//   }
-// else{
-//   console.log("Not Avaible");
+// else if(operator === "-"){
+//   return num1 - num2
 // }
+// else if(operator === "*"){
+//   return num1 * num2
+// }
+// else if(operator === "/"){
+//   return num1 / num2
+// }
+// }
+// var num1 = Number(prompt("enter first num"))
+// var operator = prompt("enter your operator")
+// var num2 = Number(prompt("enter second num "))
+//  var res = calc(num1,operator,num2)                                                                                                
+//  alert(res)
+
+// var userInput = prompt("enter any day")
+// var days = ["Monday", "Tuesday", "wednesday", "thursday", "Friday", "Saturday", "Sunday"]
+// switch (userInput){
+//   case "Monday" :
+//   alert("happy monday")
+//   break
+//   case "Tuesday":
+//   alert("Tuesday")
+//   break
+//   case "wednesday":
+//   alert("wednesday")
+//   break
+//   case "thursday":
+//   alert("happy thursday")
+//   break
+//   case  "Friday":
+//   alert("happy Friday")
+//   break
+//   case "Saturday":
+//   alert("happy Saturday ")
+//   break
+//   case "Sunday":
+//   alert("happy Sunday")
+//   break
+// default:
+// alert("wrong answer")
 // }
